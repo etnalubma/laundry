@@ -16,4 +16,6 @@ event_type get_type(event e);
 
 double get_time(event e);
 
+event update_time(event e, double time);
+
 #endif

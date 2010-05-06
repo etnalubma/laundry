@@ -5,8 +5,14 @@
 
 typedef struct senode * enode;
 
-enode create_enode(event e);
+enode create_enode(event node);
 
-enode destroy_enode(enode e);
+enode destroy_enode(enode node);
+
+enode get_next(enode node);
+
+enode set_next(enode actual, enode next);
+
+event get_event(enode node);
 
 #endif
