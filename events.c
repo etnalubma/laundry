@@ -22,6 +22,8 @@ events destroy_events(events s){
         destroy_event(get_event(tmp));
         destroy_enode(tmp);
     }
+    free(s);
+    s = NULL;
     return s;
 }
 

@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -ansi -pedantic
+CFLAGS = -Wall -ansi -pedantic -g
 
 OBJS = randomgen.o generators.o event.o enode.o events.o laundry.o main.o
 
