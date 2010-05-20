@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "event.h"
 #include "events.h"
 #include "generators.h"
+
 #include "laundry.h"
 
 struct slaundry{

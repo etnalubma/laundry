@@ -1,6 +1,8 @@
 #ifndef LAUNDRY_H
 #define LAUNDRY_H
 
+#include "randomgen.h"
+
 typedef struct slaundry * laundry;
 
 /*
