@@ -20,8 +20,6 @@ void print_use(char *pname)
 
 static struct option long_options[] =
  {
-       /* These options don't set a flag.
-          We distinguish them by their indices. */
        {"help", required_argument, 0, 'h'},          
        {"operaries", required_argument, 0, 'o'},
        {"machines",  required_argument, 0, 'm'},
@@ -29,7 +27,6 @@ static struct option long_options[] =
        {"file",      required_argument, 0, 'f'},
        {0, 0, 0, 0}
  };
-
 
 
 int main(int argc, char *argv[]){
