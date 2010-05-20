@@ -7,5 +7,5 @@ main: ${OBJS}
 	${CC} -o program -lm ${OBJS}
 		
 clean:
-	rm -f ${OBJS} program *~
+	rm -f ${OBJS} program *~ *.dat
         
